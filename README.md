@@ -6,7 +6,7 @@ Detecron2 Github(Mask-RCNN): https://github.com/facebookresearch/detectron2
 CLoDSA Github(Augmentation): https://github.com/joheras/CLoDSA
 
 ## Quick Start
-1.Install the detectron2 environment from https://github.com/facebookresearch/detectron2.
+1.##Install the detectron2 environment from https://github.com/facebookresearch/detectron2.##
 
 2.Put train_X101_FPN_ImageNet_augment.py into detectron2 folder.
 
@@ -14,7 +14,7 @@ CLoDSA Github(Augmentation): https://github.com/joheras/CLoDSA
 
     a.first time start: Comment out the cfg.MODEL.WEIGHTS and it will initialize an Imagenet and training.
   
-    b.set register_coco_instances("my_dataset", {}, "train_images3_annotation.json", "./train_images3") this line accourding your dataset       path and your annotation.json path.
+    b.set register_coco_instances("my_dataset", {}, "train_images3_annotation.json", "./train_images3") this line accourding your dataset path and your annotation.json path.
   
     c.I set the cfg.SOLVER.BASE_LR = 0.00025.
   
@@ -24,3 +24,11 @@ CLoDSA Github(Augmentation): https://github.com/joheras/CLoDSA
 
 
 cfg.merge_from_file("./detectron2_repo/configs/COCO-InstanceSegmentation/mask_rcnn_X_101_32x8d_FPN_3x.yaml") is the Hyperparameter which set by office.
+
+## Simple Test
+1.Find the "file.pth" in the output folder.
+
+2.Set cfg.MODEL.WEIGHTS path to target ".pth" file.
+
+3.Use which line been command out in the bottom. Read your own picture and predict.
+
