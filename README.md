@@ -6,6 +6,7 @@ Detecron2 Github(Mask-RCNN): https://github.com/facebookresearch/detectron2
 
 CLoDSA Github(Augmentation): https://github.com/joheras/CLoDSA
 
+# Implementation
 ## Quick Start
 1.##Install the detectron2 environment from https://github.com/facebookresearch/detectron2. ##
 
@@ -38,6 +39,9 @@ cfg.merge_from_file("./detectron2_repo/configs/COCO-InstanceSegmentation/mask_rc
 
 5.Finally, command python test.py.
 
+## DEMO Example:
+![image](https://github.com/vbnmzxc9513/Detectron2_Mask-RCNN/blob/master/11.jpg)
+
 ## Output the json to submission
 1.Find the "file.pth" in the output folder.
 
@@ -47,6 +51,8 @@ cfg.merge_from_file("./detectron2_repo/configs/COCO-InstanceSegmentation/mask_rc
 
 5.Finally, command python submission_file.py.
 
+
+# Experience
 ## Image Augmentation
 
 See Image_augmentation.ipynb. 
