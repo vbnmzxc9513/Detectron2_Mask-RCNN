@@ -31,5 +31,22 @@ cfg.merge_from_file("./detectron2_repo/configs/COCO-InstanceSegmentation/mask_rc
 
 2.Set cfg.MODEL.WEIGHTS path to target ".pth" file.
 
-3.Use which line been command out in the bottom. Read your own picture and predict.
+3.cfg.merge_from_file("./detectron2_repo/configs/COCO-InstanceSegmentation/mask_rcnn_X_101_32x8d_FPN_3x.yaml") Hyperparameters corresponding to the model you want to test.
+
+4.Use which line been command out in the bottom. Read your own picture and predict.
+
+5.Finally, command python test.py.
+
+## Output the json to submission
+1.Find the "file.pth" in the output folder.
+
+2.Set cfg.MODEL.WEIGHTS path to target ".pth" file.
+
+3.cfg.merge_from_file("./detectron2_repo/configs/COCO-InstanceSegmentation/mask_rcnn_X_101_32x8d_FPN_3x.yaml") Hyperparameters corresponding to the model you want to test.
+
+5.Finally, command python submission_file.py.
+
+
+
+
 
