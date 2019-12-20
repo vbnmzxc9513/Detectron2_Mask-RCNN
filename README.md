@@ -114,5 +114,5 @@ Set __C.SOLVE.R.WEIGHT_DECA Y 0.000 5 this config to implement.
 By adjusting the error function to aggravate the penalty caused by the parameters of the high power term, to limit the infinite increase of the power of the high power term to fit the training model.
 
 ## Image processing the test set:
-I even do image processing to the test set. The method including histogram equalization and invert the color of image. But didn’t get better score.
+I even do image processing to the test set. The method including histogram equalization and invert the color of the image. But didn’t get a better score.
 
