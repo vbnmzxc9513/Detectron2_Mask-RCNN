@@ -10,7 +10,7 @@ CLoDSA Github(Augmentation): https://github.com/joheras/CLoDSA
 ## Quick Start
 1.##Install the detectron2 environment from https://github.com/facebookresearch/detectron2. ##
 
-2.Put train_X101_FPN_ImageNet_augment.py into detectron2 folder.
+2.Put train_X101_FPN_ImageNet_augment.py and all python files into detectron2 folder.
 
 3.Set config:
 
