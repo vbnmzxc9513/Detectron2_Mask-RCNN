@@ -20,7 +20,7 @@ CLoDSA Github(Augmentation): https://github.com/joheras/CLoDSA
   
     c.I set the cfg.SOLVER.BASE_LR = 0.00025.
   
-    d.In this homework case, if you are first time training, cfg.SOLVER.MAX_ITER might need to close to 30000~40000.
+    d.In this case, if you are first time training, cfg.SOLVER.MAX_ITER might need to close to 30000~40000.
   
 4.Command line "python train_X101_FPN_ImageNet_augment.py" and start training.
 
